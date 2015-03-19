@@ -1,219 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:fillViewport="true">
+    android:fillViewport="true" >
+
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#e67e22"
-        >
+        android:background="#abcdef" >
 
-        <!--  Header  Starts-->
+        <!-- Header  Starts -->
 
-        <!--  Header Ends -->
+
+        <!-- Header Ends -->
         <!-- Footer Start -->
-        <LinearLayout android:id="@+id/footer"
+
+        <LinearLayout
+            android:id="@+id/footer"
             android:layout_width="fill_parent"
             android:layout_height="130dip"
-             android:background="#1abc9c"
             android:layout_alignParentTop="true"
-            android:gravity="center"
+            android:background="#1abc9c"
+            android:gravity="center" >
 
-            >
-
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/arrow"
+            <Button
                 android:id="@+id/btn_back_login"
-                />
-            <ImageView
-                android:layout_marginLeft="30dp"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/highscores"
-                />
-            <ImageView
-                android:layout_marginLeft="30dp"
+                android:background="@drawable/arrow" />
+
+            <Button
+                android:id="@+id/btn_highscore"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:src="@drawable/profile"
-                />
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/highscores" />
+
+            <Button
+                android:id="@+id/btn_profile"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/profile" />
         </LinearLayout>
 
         <!-- Footer Ends -->
 
+
         <!-- Login Form -->
+
         <LinearLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:orientation="vertical"
+            android:id="@+id/linearLayout2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/footer"
-            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
 
-            android:id="@+id/linearLayout2">
-
-            <LinearLayout android:id="@+id/footer1"
+            <LinearLayout
+                android:id="@+id/footer1"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="#2ecc71"
                 android:layout_alignParentTop="true"
-                android:gravity="center"
-
-                >
-
-        <!--  Email Label -->
-
-            <ImageView
-                android:layout_height="80dp"
-                android:layout_width="80dp"
-                android:src="@drawable/user"
-                android:layout_marginTop="5dp"
-
-
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="user_name "
-                android:textColor="#ffffff"
-                android:textSize="25dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginLeft="50dp"
-                android:id="@+id/login_username"
-                />
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-
-                android:gravity="top|center_horizontal"
-                android:orientation="horizontal" >
-
-
-        </LinearLayout>
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="top|center_horizontal"
                 android:background="#2ecc71"
-                android:orientation="horizontal" >
+                android:gravity="center" >
 
-                <!--  Email Label -->
+                <!-- Email Label -->
+
                 <ImageView
-                    android:layout_height="80dp"
                     android:layout_width="80dp"
-                    android:src="@drawable/score"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="5dp"
-                    />
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/user" />
 
                 <TextView
+                    android:id="@+id/login_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="user_name "
+                    android:textColor="#943440"
+                    android:textSize="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#2ecc71"
+                android:gravity="top|center_horizontal"
+                android:orientation="horizontal" >
+
+                <!-- Email Label -->
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/score" />
+
+                <TextView
+                    android:id="@+id/login_score"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:text="user_score "
-                    android:textColor="#ffffff"
-                    android:textSize="25dp"
-                    android:layout_marginTop="30dp"
                     android:layout_marginLeft="50dp"
-
-                    android:id="@+id/login_score"
-                    />
-
-
+                    android:layout_marginTop="30dp"
+                    android:text="user_score "
+                    android:textColor="#943440"
+                    android:textSize="25dp" />
             </LinearLayout>
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="top|center_horizontal"
-            android:orientation="horizontal"
-            android:background="#FFCC99">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Categories"
-                android:id="@+id/catagories"
-                android:textColor="#c0392b"
-
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_gravity="center_horizontal"
-                android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout android:id="@+id/footer2"
-                android:layout_width="fill_parent"
-                android:layout_height="130dip"
-                android:background="#9b59b6"
-                android:layout_alignParentTop="true"
-                android:gravity="center"
-
-                >
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/movies"
-                    android:id="@+id/movies"
-                    />
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/history"
-                    android:id="@+id/literature"
-                    android:layout_marginLeft="20dp"
-
-                    />
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/technology"
-                    android:id="@+id/history"
-                    android:layout_marginLeft="20dp"
-                    />
-            </LinearLayout>
-            <LinearLayout android:id="@+id/footer3"
-                android:layout_width="fill_parent"
-                android:layout_height="130dip"
-                android:background="#e74c3c"
-                android:layout_alignParentTop="true"
-                android:gravity="center"
-
-                >
-
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/music"
-                    android:id="@+id/music"
-                    />
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/science"
-                    android:id="@+id/seasons"
-                    android:layout_marginLeft="20dp"
-                    />
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/seasons"
-                    android:id="@+id/technology"
-                    android:layout_marginLeft="20dp"
-                    />
-            </LinearLayout>
-
-
         </LinearLayout>
 
         <!-- Login Form Ends -->
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cate" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button1"
+            android:layout_centerHorizontal="true"
+            android:text="Categories"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#893990" />
     </RelativeLayout>
 
 </ScrollView>

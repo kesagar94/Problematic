@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFCC99"
+        android:gravity="top|center_horizontal"
+        android:orientation="horizontal" 
+        android:layout_weight="0.1">
+
+        <TextView
+            android:id="@+id/catagories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="Categories"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#c0392b"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Part1"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip"
+        android:background="#9b59b6"
+        android:gravity="center" 
+        android:layout_weight="0.3">
+
+        <Button
+            android:id="@+id/movie"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/movies" />
+
+        <Button
+            android:id="@+id/lit"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/history" />
+
+        <Button
+            android:id="@+id/hist"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/technology" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Part2"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip"
+        android:background="#e74c3c"
+        android:gravity="center" 
+        android:layout_weight="0.3">
+
+        <Button
+            android:id="@+id/musc"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/music" />
+
+        <Button
+            android:id="@+id/season"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/science" />
+
+        <Button
+            android:id="@+id/tech"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/seasons" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Part3"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip"
+        android:background="#a34a15"
+        android:gravity="center" 
+        android:layout_weight="0.3">
+
+        <Button
+            android:id="@+id/Sports"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/gamecontroller" />
+
+        <Button
+            android:id="@+id/World"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/global" />
+
+        <Button
+            android:id="@+id/Personality"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/camera" />
+    </LinearLayout>
+
+</LinearLayout>
