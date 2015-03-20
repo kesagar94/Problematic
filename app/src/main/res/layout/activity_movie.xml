@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1abc3c"
+    android:background="#009aff"
     android:gravity="center_horizontal"
     android:orientation="vertical" >
 
@@ -23,6 +23,7 @@
         android:id="@+id/ratingBar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#0000ff"
         android:rating="5" />
 
     <TextView
@@ -32,44 +33,98 @@
         android:text="Choose your level"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="" />
+    <LinearLayout
+        android:id="@+id/Part3"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip"
+        android:layout_weight="0.3"
+        android:gravity="center" >
 
-    <Button
-        android:id="@+id/button1"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="78dp"
-        android:layout_height="60dp"
-        android:background="#a34a15"
-        android:text="Easy" />
+        <Button
+            android:id="@+id/Sports"
+            android:layout_width="80dp"
+            android:layout_height="68dp"
+            android:background="#00ff00"
+            android:text="1" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="" />
+        <Button
+            android:id="@+id/World"
+            android:layout_width="80dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="20dp"
+            android:background="#00ff00"
+            android:text="2" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="137dp"
-        android:layout_height="70dp"
-        android:background="#e74c3c"
-        android:text="Medium" />
+        <Button
+            android:id="@+id/Personality"
+            android:layout_width="80dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="20dp"
+            android:background="#00ff00"
+            android:text="3" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="" />
+    <LinearLayout
+        android:id="@+id/Part1"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip"
+        android:layout_weight="0.3"
+        android:gravity="center" >
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="175dp"
-        android:layout_height="80dp"
+        <Button
+            android:id="@+id/movie"
+            android:layout_width="80dp"
+            android:layout_height="68dp"
+         android:background="#ffff00"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/lit"
+            android:layout_width="80dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="20dp"
+            android:background="#ffff00"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/hist"
+            android:layout_width="80dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="20dp"
+            android:background="#ffff00"
+            android:text="6" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Part2"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip"
+        android:layout_weight="0.3"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/musc"
+            android:layout_width="80dp"
+            android:layout_height="68dp"
         android:background="#ff0000"
-        android:text="Hard" />
+            android:text="7"/>
+
+        <Button
+            android:id="@+id/season"
+            android:layout_width="80dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="20dp"
+        android:background="#ff0000"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/tech"
+            android:layout_width="80dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="20dp"
+        android:background="#ff0000"
+            android:text="9" />
+    </LinearLayout>
 
 </LinearLayout>
