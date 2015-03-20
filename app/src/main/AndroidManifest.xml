@@ -17,6 +17,23 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".Category"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.prateek.problematic.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Movie"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.example.prateek.problematic.MOVIE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
             android:name=".Register"
             android:label="@string/title_activity_register"></activity>
         <activity

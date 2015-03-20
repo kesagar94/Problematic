@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
         btn_login.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-            	setContentView(R.layout.activity_movie);
+            	//setContentView(R.layout.activity_movie);
                 dialog = ProgressDialog.show(MainActivity.this, "",
                         "Validating user...", true);
                 new Thread(new Runnable() {
@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
 
     void login(){
         try{
-dialog.dismiss();
+//dialog.dismiss();
         	System.out.println("Yahoo1");
             httpclient=new DefaultHttpClient();
             httppost= new HttpPost("http://technimatics.byethost11.com/login.php"); // make sure the url is correct.
