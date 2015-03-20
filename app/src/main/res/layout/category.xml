@@ -35,20 +35,20 @@
         android:layout_weight="0.3">
 
         <Button
-            android:id="@+id/movie"
+            android:id="@+id/btn_movie"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@drawable/movies" />
 
         <Button
-            android:id="@+id/lit"
+            android:id="@+id/btn_lit"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
             android:background="@drawable/history" />
 
         <Button
-            android:id="@+id/hist"
+            android:id="@+id/btn_hist"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
@@ -64,20 +64,20 @@
         android:layout_weight="0.3">
 
         <Button
-            android:id="@+id/musc"
+            android:id="@+id/btn_musc"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@drawable/music" />
 
         <Button
-            android:id="@+id/season"
+            android:id="@+id/btn_season"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
             android:background="@drawable/science" />
 
         <Button
-            android:id="@+id/tech"
+            android:id="@+id/btn_tech"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
@@ -93,20 +93,20 @@
         android:layout_weight="0.3">
 
         <Button
-            android:id="@+id/Sports"
+            android:id="@+id/btn_Sports"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@drawable/gamecontroller" />
 
         <Button
-            android:id="@+id/World"
+            android:id="@+id/btn_World"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
             android:background="@drawable/global" />
 
         <Button
-            android:id="@+id/Personality"
+            android:id="@+id/btn_Personality"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"

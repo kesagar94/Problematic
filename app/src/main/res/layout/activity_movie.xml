@@ -44,7 +44,7 @@
             android:id="@+id/Sports"
             android:layout_width="80dp"
             android:layout_height="68dp"
-            android:background="#00ff00"
+            android:background="@drawable/custom_button2"
             android:text="1" />
 
         <Button
@@ -52,7 +52,7 @@
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-            android:background="#00ff00"
+            android:background="@drawable/custom_button2"
             android:text="2" />
 
         <Button
@@ -60,7 +60,7 @@
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-            android:background="#00ff00"
+            android:background="@drawable/custom_button2"
             android:text="3" />
     </LinearLayout>
 
@@ -75,7 +75,7 @@
             android:id="@+id/movie"
             android:layout_width="80dp"
             android:layout_height="68dp"
-         android:background="#ffff00"
+            android:background="@drawable/custom_button"
             android:text="4" />
 
         <Button
@@ -83,7 +83,7 @@
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-            android:background="#ffff00"
+            android:background="@drawable/custom_button"
             android:text="5" />
 
         <Button
@@ -91,9 +91,8 @@
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-            android:background="#ffff00"
+            android:background="@drawable/custom_button"
             android:text="6" />
-
     </LinearLayout>
 
     <LinearLayout
@@ -107,15 +106,15 @@
             android:id="@+id/musc"
             android:layout_width="80dp"
             android:layout_height="68dp"
-        android:background="#ff0000"
-            android:text="7"/>
+            android:background="@drawable/custom_button3"
+            android:text="7" />
 
         <Button
             android:id="@+id/season"
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-        android:background="#ff0000"
+            android:background="@drawable/custom_button3"
             android:text="8" />
 
         <Button
@@ -123,7 +122,7 @@
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-        android:background="#ff0000"
+            android:background="@drawable/custom_button3"
             android:text="9" />
     </LinearLayout>
 
