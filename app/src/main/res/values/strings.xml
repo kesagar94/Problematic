@@ -7,9 +7,13 @@
     <string name="header_name">Problematic</string>
     <string name="title_activity_register">Register</string>
     <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_category">Category</string>
+    <string name="title_activity_movies_category">Movies_Category</string>
     <string name="title_activity_login">Login</string>
     <string name="tv_login_email">Email</string>
     <string name="tv_login_password">Password</string>
+
+
 
 
 </resources>

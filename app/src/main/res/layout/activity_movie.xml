@@ -2,9 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#009aff"
+    android:background="#f1c40f"
     android:gravity="center_horizontal"
     android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/Part5"
+        android:background="@drawable/movie_bkg"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip"
+        android:layout_weight="0.3"
+        android:gravity="center" >
 
     <ImageView
         android:layout_width="80dp"
@@ -12,39 +19,38 @@
         android:layout_marginTop="5dp"
         android:src="@drawable/movies" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Movies"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <RatingBar
-        android:id="@+id/ratingBar1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#0000ff"
-        android:rating="5" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Choose your level"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textColor="#8e44ad"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        />
 
     <LinearLayout
+        android:layout_marginTop="10dp"
         android:id="@+id/Part3"
         android:layout_width="fill_parent"
         android:layout_height="130dip"
         android:layout_weight="0.3"
-        android:gravity="center" >
+        android:gravity="center"
+        android:background="#16a085"
+        >
 
         <Button
             android:id="@+id/Sports"
             android:layout_width="80dp"
             android:layout_height="68dp"
-            android:background="@drawable/custom_button2"
+            android:background="#27ae60"
+            android:textColor="#34495e"
+            android:textStyle="bold"
+            android:textSize="35dp"
             android:text="1" />
 
         <Button
@@ -52,7 +58,10 @@
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-            android:background="@drawable/custom_button2"
+            android:textColor="#34495e"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:background="#27ae60"
             android:text="2" />
 
         <Button
@@ -60,8 +69,11 @@
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-            android:background="@drawable/custom_button2"
-            android:text="3" />
+            android:textColor="#34495e"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:text="3"
+            android:background="#27ae60"/>
     </LinearLayout>
 
     <LinearLayout
@@ -69,30 +81,45 @@
         android:layout_width="fill_parent"
         android:layout_height="130dip"
         android:layout_weight="0.3"
-        android:gravity="center" >
+        android:gravity="center"
+        android:background="#16a085"
+        >
 
         <Button
             android:id="@+id/movie"
             android:layout_width="80dp"
             android:layout_height="68dp"
-            android:background="@drawable/custom_button"
-            android:text="4" />
+
+            android:text="4"
+            android:background="#e67e22"
+            android:textColor="#34495e"
+            android:textStyle="bold"
+            android:textSize="35dp"/>
 
         <Button
             android:id="@+id/lit"
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-            android:background="@drawable/custom_button"
-            android:text="5" />
+
+            android:text="5"
+            android:background="#e67e22"
+            android:textColor="#34495e"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            />
 
         <Button
             android:id="@+id/hist"
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-            android:background="@drawable/custom_button"
-            android:text="6" />
+            android:text="6"
+            android:background="#e67e22"
+            android:textColor="#34495e"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -100,30 +127,43 @@
         android:layout_width="fill_parent"
         android:layout_height="130dip"
         android:layout_weight="0.3"
-        android:gravity="center" >
+        android:gravity="center"
+        android:background="#16a085"
+        >
 
         <Button
             android:id="@+id/musc"
             android:layout_width="80dp"
             android:layout_height="68dp"
-            android:background="@drawable/custom_button3"
-            android:text="7" />
+            android:background="#e74c3c"
+            android:text="7"
+            android:textColor="#34495e"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            />
 
         <Button
             android:id="@+id/season"
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-            android:background="@drawable/custom_button3"
-            android:text="8" />
+            android:background="#e74c3c"
+            android:text="8"
+            android:textColor="#34495e"
+            android:textStyle="bold"
+            android:textSize="35dp"/>
 
         <Button
             android:id="@+id/tech"
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-            android:background="@drawable/custom_button3"
-            android:text="9" />
+            android:background="#e74c3c"
+            android:text="9"
+            android:textStyle="bold"
+            android:textColor="#34495e"
+            android:textSize="35dp"
+            />
     </LinearLayout>
 
 </LinearLayout>

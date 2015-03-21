@@ -40,8 +40,14 @@
             android:name=".Login"
             android:label="@string/title_activity_login"></activity>
         <activity
-            android:name=".UserProfile"
-            android:label="@string/title_activity_profile"></activity>
+        android:name=".UserProfile"
+        android:label="@string/title_activity_profile"></activity>
+        <activity
+            android:name=".UserCategory"
+            android:label="@string/title_activity_category"></activity>
+        <activity
+            android:name=".MoviesCategory"
+            android:label="@string/title_activity_movies_category"></activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

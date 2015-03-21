@@ -1,7 +1,7 @@
 package com.example.prateek.problematic;
 
 
-import java.util.ArrayList;
+import java.util.*;
 import java.util.List;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -26,6 +26,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import org.json.*;
+
+
 
 
 public class MainActivity extends Activity {
@@ -38,6 +41,11 @@ public class MainActivity extends Activity {
     HttpClient httpclient;
     List<NameValuePair> nameValuePairs;
     ProgressDialog dialog = null;
+    //session data
+    String current_user="name";
+    String current_score="score";
+
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) { //test
@@ -91,11 +99,25 @@ public class MainActivity extends Activity {
                 runOnUiThread(new Runnable() {
                     public void run() {
                         Toast.makeText(MainActivity.this,"Login Success", Toast.LENGTH_SHORT).show();
+
+
                     }
                 });
+                //testing
+                List<String> user_data = new ArrayList<String>();
+                user_data = Arrays.asList(response.split(" "));
+                current_score=user_data.get(3);
+                current_user=user_data.get(1);
 
-                startActivity(new Intent(MainActivity.this,UserProfile.class));
+
+
+                Intent intent = new Intent(MainActivity.this, UserProfile.class);
+                intent.putExtra("current_user",current_user);
+                intent.putExtra("current_score",current_score);
+                startActivity(intent);
                 overridePendingTransition(R.anim.top_out, R.anim.bottom_in);
+
+
             }else{
                 showAlert();
             }
