@@ -70,7 +70,7 @@
             android:background="@drawable/music" />
 
         <Button
-            android:id="@+id/btn_season"
+            android:id="@+id/btn_science"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
