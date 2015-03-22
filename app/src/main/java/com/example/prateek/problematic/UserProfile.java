@@ -35,6 +35,10 @@ public class UserProfile extends ActionBarActivity {
     private TextView user_name;
     private TextView user_score;
 
+    private String current_user;
+    private String current_score;
+    private String current_email;
+
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +48,7 @@ public class UserProfile extends ActionBarActivity {
         Bundle bundle = getIntent().getExtras();
         String username = bundle.getString("current_user");
         String score = bundle.getString("current_score");
+        String email=bundle.getString("current_email");
 
         btn_cat = (Button) findViewById(R.id.btn_cat);
         user_name= (TextView) findViewById(R.id.login_username);
@@ -51,13 +56,22 @@ public class UserProfile extends ActionBarActivity {
         user_name.setText(username);
         user_score.setText(score);
 
+        current_user=user_name.getText().toString();
+        current_score=user_score.getText().toString();
+        current_email=email;
+
+
         btn_cat.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent i = new Intent(getApplicationContext(),UserCategory.class);
-                startActivity(i);
+
+                Intent intent = new Intent(UserProfile.this, UserCategory.class);
+                intent.putExtra("current_user",current_user);
+                intent.putExtra("current_score",current_score);
+                intent.putExtra("current_score",current_email);
+                startActivity(intent);
                 overridePendingTransition(R.anim.top_out, R.anim.bottom_in);
             }
         });
