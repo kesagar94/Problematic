@@ -30,10 +30,12 @@
         android:id="@+id/Part1"
         android:layout_width="fill_parent"
         android:layout_height="430dip"
-        android:background="#e74c3c"
+        android:background="#FFCC99"
         android:gravity="center"
         android:layout_weight="0.3"
        >
+
+
 
         <ImageView
             android:id="@+id/ques_movie_image"
@@ -44,12 +46,34 @@
 
         </ImageView>
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/Part4"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:background="#FFCC99"
+        android:gravity="center"
+        android:layout_weight="0.3">
+        <EditText
+            android:id="@+id/question_ans"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dip"
+            android:background="#e67e22"
+            android:hint="Guess the answer"
+            android:padding="20dp"
+            android:singleLine="true"
+            android:textColor="#2c3e50"
+            android:textColorHint="#eff4ff" />
+        </LinearLayout>
 
     <LinearLayout
         android:id="@+id/Part3"
         android:layout_width="fill_parent"
-        android:layout_height="230dip"
-        android:background="#3498db"
+        android:layout_height="200dip"
+        android:background="#FFCC99"
         android:gravity="center"
         android:layout_weight="0.3">
 
@@ -58,8 +82,9 @@
         <Button
             android:id="@+id/btn_submit_ans"
             android:layout_width="180dp"
-            android:layout_height="80dp"
-            android:layout_marginLeft="20dp"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="20dp"
             android:layout_marginBottom="30dp"
             android:background="@drawable/submitbutton" />
 
