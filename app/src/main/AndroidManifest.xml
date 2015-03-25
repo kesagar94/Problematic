@@ -48,6 +48,9 @@
         <activity
             android:name=".MoviesCategory"
             android:label="@string/title_activity_movies_category"></activity>
+        <activity
+            android:name=".QuestionDisplay"
+            android:label="@string/title_activity_question"></activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

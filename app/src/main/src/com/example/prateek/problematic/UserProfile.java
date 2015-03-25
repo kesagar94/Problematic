@@ -17,7 +17,7 @@ public class UserProfile extends ActionBarActivity implements OnClickListener{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_profile);
-		cat = (Button) findViewById(R.id.btn_cate);
+		cat = (Button) findViewById(R.id.btn_cat);
 		cat.setOnClickListener(this);
 	}
 
@@ -26,7 +26,7 @@ public class UserProfile extends ActionBarActivity implements OnClickListener{
 		// TODO Auto-generated method stub
 		switch(v.getId())
 		{
-		case R.id.btn_cate:
+		case R.id.btn_cat:
 			Intent i = new Intent("com.example.prateek.problematic.CATEGORY");
 			startActivity(i);
 			break;

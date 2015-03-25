@@ -41,18 +41,18 @@
             android:background="@drawable/movies" />
 
         <Button
-            android:id="@+id/btn_lit"
+            android:id="@+id/btn_hist"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
             android:background="@drawable/history" />
 
         <Button
-            android:id="@+id/btn_hist"
+            android:id="@+id/btn_lit"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
-            android:background="@drawable/technology" />
+            android:background="@drawable/lit" />
     </LinearLayout>
 
     <LinearLayout
@@ -64,13 +64,13 @@
         android:layout_weight="0.3">
 
         <Button
-            android:id="@+id/btn_musc"
+            android:id="@+id/btn_music"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@drawable/music" />
 
         <Button
-            android:id="@+id/btn_season"
+            android:id="@+id/btn_science"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="20dp"
@@ -96,7 +96,7 @@
             android:id="@+id/btn_Sports"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:background="@drawable/gamecontroller" />
+            android:background="@drawable/sports" />
 
         <Button
             android:id="@+id/btn_World"

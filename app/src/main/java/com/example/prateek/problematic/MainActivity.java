@@ -44,6 +44,7 @@ public class MainActivity extends Activity {
     //session data
     String current_user="name";
     String current_score="score";
+    String current_email="email";
 
 
 
@@ -108,12 +109,14 @@ public class MainActivity extends Activity {
                 user_data = Arrays.asList(response.split(" "));
                 current_score=user_data.get(3);
                 current_user=user_data.get(1);
+                current_email=user_data.get(4);
 
 
 
                 Intent intent = new Intent(MainActivity.this, UserProfile.class);
                 intent.putExtra("current_user",current_user);
                 intent.putExtra("current_score",current_score);
+                intent.putExtra("current_email",current_email);
                 startActivity(intent);
                 overridePendingTransition(R.anim.top_out, R.anim.bottom_in);
 
