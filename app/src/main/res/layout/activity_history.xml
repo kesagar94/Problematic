@@ -5,23 +5,6 @@
     android:background="#f1c40f"
     android:gravity="center_horizontal"
     android:orientation="vertical" >
-<<<<<<< HEAD
-    <LinearLayout
-        android:id="@+id/Part5_hist"
-        android:background="@drawable/hist_bkg"
-        android:layout_width="fill_parent"
-        android:layout_height="130dip"
-        android:layout_weight="0.3"
-        android:gravity="center" >
-
-    <ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="5dp"
-        android:src="@drawable/history" />
-
-
-=======
 
     <LinearLayout
         android:id="@+id/Part5_hist"
@@ -36,31 +19,12 @@
             android:layout_height="80dp"
             android:layout_marginTop="5dp"
             android:src="@drawable/history" />
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView2_hist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-        android:text="Choose your level"
-        android:textColor="#8e44ad"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        />
-
-    <LinearLayout
-        android:layout_marginTop="10dp"
-        android:id="@+id/Part3_hist"
-        android:layout_width="fill_parent"
-        android:layout_height="130dip"
-        android:layout_weight="0.3"
-        android:gravity="center"
-        android:background="#16a085"
-        >
-=======
         android:layout_gravity="center_horizontal"
         android:text="Choose your level"
         android:textColor="#8e44ad"
@@ -75,63 +39,38 @@
         android:layout_weight="0.3"
         android:background="#16a085"
         android:gravity="center" >
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
 
         <Button
             android:id="@+id/btn1_hist"
             android:layout_width="80dp"
             android:layout_height="68dp"
-<<<<<<< HEAD
-            android:background="#27ae60"
-            android:textColor="#34495e"
-            android:textStyle="bold"
-            android:textSize="35dp"
-            android:text="1" />
-=======
             android:background="@drawable/custom_button"
             android:text="1"
             android:textColor="#34495e"
             android:textSize="35dp"
             android:textStyle="bold" />
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
 
         <Button
             android:id="@+id/btn2_hist"
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-<<<<<<< HEAD
-            android:textColor="#34495e"
-            android:textStyle="bold"
-            android:textSize="35dp"
-            android:background="#27ae60"
-            android:text="2" />
-=======
             android:background="@drawable/custom_button"
             android:text="2"
             android:textColor="#34495e"
             android:textSize="35dp"
             android:textStyle="bold" />
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
 
         <Button
             android:id="@+id/btn3_hist"
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-<<<<<<< HEAD
-            android:textColor="#34495e"
-            android:textStyle="bold"
-            android:textSize="35dp"
-            android:text="3"
-            android:background="#27ae60"/>
-=======
             android:background="@drawable/custom_button"
             android:text="3"
             android:textColor="#34495e"
             android:textSize="35dp"
             android:textStyle="bold" />
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
     </LinearLayout>
 
     <LinearLayout
@@ -139,74 +78,40 @@
         android:layout_width="fill_parent"
         android:layout_height="130dip"
         android:layout_weight="0.3"
-<<<<<<< HEAD
-        android:gravity="center"
-        android:background="#16a085"
-        >
-=======
         android:background="#16a085"
         android:gravity="center" >
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
 
         <Button
             android:id="@+id/btn4_hist"
             android:layout_width="80dp"
             android:layout_height="68dp"
-<<<<<<< HEAD
-
-            android:text="4"
-            android:background="#e67e22"
-            android:textColor="#34495e"
-            android:textStyle="bold"
-            android:textSize="35dp"/>
-=======
             android:background="@drawable/custom_button2"
             android:text="4"
             android:textColor="#34495e"
             android:textSize="35dp"
             android:textStyle="bold" />
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
 
         <Button
             android:id="@+id/btn5_hist"
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-<<<<<<< HEAD
-
-            android:text="5"
-            android:background="#e67e22"
-            android:textColor="#34495e"
-            android:textStyle="bold"
-            android:textSize="35dp"
-            />
-=======
             android:background="@drawable/custom_button2"
             android:text="5"
             android:textColor="#34495e"
             android:textSize="35dp"
             android:textStyle="bold" />
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
 
         <Button
             android:id="@+id/btn6_hist"
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-<<<<<<< HEAD
-            android:text="6"
-            android:background="#e67e22"
-            android:textColor="#34495e"
-            android:textStyle="bold"
-            android:textSize="35dp"
-            />
-=======
             android:background="@drawable/custom_button2"
             android:text="6"
             android:textColor="#34495e"
             android:textSize="35dp"
             android:textStyle="bold" />
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
     </LinearLayout>
 
     <LinearLayout
@@ -214,72 +119,40 @@
         android:layout_width="fill_parent"
         android:layout_height="130dip"
         android:layout_weight="0.3"
-<<<<<<< HEAD
-        android:gravity="center"
-        android:background="#16a085"
-        >
-=======
         android:background="#16a085"
         android:gravity="center" >
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
 
         <Button
             android:id="@+id/btn7_hist"
             android:layout_width="80dp"
             android:layout_height="68dp"
-<<<<<<< HEAD
-            android:background="#e74c3c"
-            android:text="7"
-            android:textColor="#34495e"
-            android:textStyle="bold"
-            android:textSize="35dp"
-            />
-=======
             android:background="@drawable/custom_button3"
             android:text="7"
             android:textColor="#34495e"
             android:textSize="35dp"
             android:textStyle="bold" />
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
 
         <Button
             android:id="@+id/btn8_hist"
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-<<<<<<< HEAD
-            android:background="#e74c3c"
-            android:text="8"
-            android:textColor="#34495e"
-            android:textStyle="bold"
-            android:textSize="35dp"/>
-=======
             android:background="@drawable/custom_button3"
             android:text="8"
             android:textColor="#34495e"
             android:textSize="35dp"
             android:textStyle="bold" />
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
 
         <Button
             android:id="@+id/btn9_hist"
             android:layout_width="80dp"
             android:layout_height="68dp"
             android:layout_marginLeft="20dp"
-<<<<<<< HEAD
-            android:background="#e74c3c"
-            android:text="9"
-            android:textStyle="bold"
-            android:textColor="#34495e"
-            android:textSize="35dp"
-            />
-=======
             android:background="@drawable/custom_button3"
             android:text="9"
             android:textColor="#34495e"
             android:textSize="35dp"
             android:textStyle="bold" />
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
     </LinearLayout>
 
 </LinearLayout>
