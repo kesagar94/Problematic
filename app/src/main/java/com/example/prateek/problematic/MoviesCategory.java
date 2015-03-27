@@ -4,21 +4,17 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
-<<<<<<< HEAD
 import android.widget.Button;
-=======
-import android.widget.*;
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
+
 
 /**
  * Created by prateek on 3/20/2015.
  */
 public class MoviesCategory extends ActionBarActivity {
 
-<<<<<<< HEAD
+
     //question nos display buttons
-=======
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
+
     private Button btn1_movie;
     private Button btn2_movie;
     private Button btn3_movie;
@@ -29,12 +25,10 @@ public class MoviesCategory extends ActionBarActivity {
     private Button btn8_movie;
     private Button btn9_movie;
 
-<<<<<<< HEAD
     //Movie question done buttons
     private boolean movie_done1;
     private boolean movie_done2;
-=======
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
+
 
     private String current_user;
     private String current_score;
@@ -63,7 +57,6 @@ public class MoviesCategory extends ActionBarActivity {
         String username = bundle.getString("current_user");
         String score = bundle.getString("current_score");
         String email=bundle.getString("current_email");
-<<<<<<< HEAD
         movie_done1=bundle.getBoolean("movie_done1");
 
         //checking if question done
@@ -72,8 +65,6 @@ public class MoviesCategory extends ActionBarActivity {
             btn1_movie.setBackgroundResource(R.drawable.tick);
         }
 
-=======
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
 
         current_email=email;
         current_score=score;
@@ -89,11 +80,11 @@ public class MoviesCategory extends ActionBarActivity {
                 Intent intent = new Intent(MoviesCategory.this,QuestionDisplay.class);
                 intent.putExtra("current_user",current_user);
                 intent.putExtra("current_score",current_score);
-<<<<<<< HEAD
+
                 intent.putExtra("current_email",current_email);
-=======
-                intent.putExtra("current_score",current_email);
->>>>>>> b4564cecc6953a2649d016952b0d7893d61bc6d0
+
+                intent.putExtra("current_score",current_score);
+
                 intent.putExtra("current_question",current_question);
 
                 startActivity(intent);
